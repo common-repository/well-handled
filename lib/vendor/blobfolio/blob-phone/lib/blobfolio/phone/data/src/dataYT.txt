@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataYT extends data { const CODE = 'YT'; const PREFIX = 262; const REGION = 'Africa'; const PATTERNS = array( '80\d{7}|(?:26|63)9\d{6}', ); const TYPES = array( '269(?:0[67]|5[0-2]|6\d|[78]0)\d{4}'=>array( 'fixed', ), '639(?:0[0-79]|1[019]|[267]\d|3[09]|[45]0|9[04-79])\d{4}'=>array( 'mobile', ), '80\d{7}'=>array( 'toll_free', ), ); const FORMATS = array(); } 

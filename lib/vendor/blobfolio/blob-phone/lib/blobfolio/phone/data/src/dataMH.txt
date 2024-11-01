@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataMH extends data { const CODE = 'MH'; const PREFIX = 692; const REGION = 'Australia'; const PATTERNS = array( '329\d{4}|(?:[256]\d|45)\d{5}', ); const TYPES = array( '(?:247|528|625)\d{4}'=>array( 'fixed', ), '(?:(?:23|54)5|329|45[56])\d{4}'=>array( 'mobile', ), '635\d{4}'=>array( 'voip', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1-$2', ); } 

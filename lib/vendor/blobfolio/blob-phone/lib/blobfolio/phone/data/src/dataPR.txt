@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataPR extends data { const CODE = 'PR'; const PREFIX = 1; const REGION = 'North America'; const PATTERNS = array( '(?:[589]\d\d|787)\d{7}', ); const TYPES = array( '(?:787|939)[2-9]\d{6}'=>array( 'fixed', 'mobile', ), '8(?:00|33|44|55|66|77|88)[2-9]\d{6}'=>array( 'toll_free', ), '900[2-9]\d{6}'=>array( 'premium_rate', ), '5(?:00|2[12]|33|44|66|77|88)[2-9]\d{6}'=>array( 'personal_number', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1-$2', '(\d{3})(\d{3})(\d{4})'=>'$1-$2-$3', ); } 

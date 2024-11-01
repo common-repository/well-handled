@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataCG extends data { const CODE = 'CG'; const PREFIX = 242; const REGION = 'Africa'; const PATTERNS = array( '222\d{6}|(?:0\d|80)\d{7}', ); const TYPES = array( '222[1-589]\d{5}'=>array( 'fixed', ), '0[14-6]\d{7}'=>array( 'mobile', ), '80(?:0\d\d|11[0-4])\d{4}'=>array( 'premium_rate', ), ); const FORMATS = array( '(\d{3})(\d{2})(\d{2})(\d{2})'=>'$1 $2 $3 $4', '(\d)(\d{4})(\d{4})'=>'$1 $2 $3', '(\d{2})(\d{3})(\d{4})'=>'$1 $2 $3', ); } 

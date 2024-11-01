@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataSL extends data { const CODE = 'SL'; const PREFIX = 232; const REGION = 'Africa'; const PATTERNS = array( '(?:[2378]\d|99)\d{6}', ); const TYPES = array( '22\d{6}'=>array( 'fixed', ), '(?:25|3[0134]|7[5-9]|8[08]|99)\d{6}'=>array( 'mobile', ), ); const FORMATS = array( '(\d{2})(\d{6})'=>'$1 $2', ); } 

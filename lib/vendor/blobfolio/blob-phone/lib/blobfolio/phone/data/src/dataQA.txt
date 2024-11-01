@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataQA extends data { const CODE = 'QA'; const PREFIX = 974; const REGION = 'Asia'; const PATTERNS = array( '[2-7]\d{7}|(?:2\d\d|800)\d{4}', ); const TYPES = array( '4[04]\d{6}'=>array( 'fixed', ), '(?:28|[35-7]\d)\d{6}'=>array( 'mobile', ), '800\d{4}'=>array( 'toll_free', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1 $2', '(\d{4})(\d{4})'=>'$1 $2', ); } 

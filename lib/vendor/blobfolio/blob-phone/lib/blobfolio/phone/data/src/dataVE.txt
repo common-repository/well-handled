@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataVE extends data { const CODE = 'VE'; const PREFIX = 58; const REGION = 'South America'; const PATTERNS = array( '[89]00\d{7}|(?:[24]\d|50)\d{8}', ); const TYPES = array( '(?:2(?:12|3[457-9]|[467]\d|[58][1-9]|9[1-6])|50[01])\d{7}'=>array( 'fixed', ), '4(?:1[24-8]|2[46])\d{7}'=>array( 'mobile', ), '800\d{7}'=>array( 'toll_free', ), '900\d{7}'=>array( 'premium_rate', ), ); const FORMATS = array( '(\d{3})(\d{7})'=>'$1-$2', ); } 

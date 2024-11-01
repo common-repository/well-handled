@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataNR extends data { const CODE = 'NR'; const PREFIX = 674; const REGION = 'Australia'; const PATTERNS = array( '(?:444|55\d|888)\d{4}', ); const TYPES = array( '(?:444|888)\d{4}'=>array( 'fixed', ), '55[4-9]\d{4}'=>array( 'mobile', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1 $2', ); } 

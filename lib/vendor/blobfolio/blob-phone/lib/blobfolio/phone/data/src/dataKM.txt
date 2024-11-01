@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataKM extends data { const CODE = 'KM'; const PREFIX = 269; const REGION = 'Africa'; const PATTERNS = array( '[3478]\d{6}', ); const TYPES = array( '7[4-7]\d{5}'=>array( 'fixed', ), '[34]\d{6}'=>array( 'mobile', ), '8\d{6}'=>array( 'premium_rate', ), ); const FORMATS = array( '(\d{3})(\d{2})(\d{2})'=>'$1 $2 $3', ); } 

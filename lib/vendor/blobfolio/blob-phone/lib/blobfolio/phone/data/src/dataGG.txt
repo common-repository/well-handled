@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataGG extends data { const CODE = 'GG'; const PREFIX = 44; const REGION = 'Europe'; const PATTERNS = array( '(?:1481|[357-9]\d{3})\d{6}|8\d{6}(?:\d{2})?', ); const TYPES = array( '1481[25-9]\d{5}'=>array( 'fixed', ), '7(?:(?:781|839)\d|911[17])\d{5}'=>array( 'mobile', ), '80[08]\d{7}|800\d{6}|8001111'=>array( 'toll_free', ), '(?:8(?:4[2-5]|7[0-3])|9(?:[01]\d|8[0-3]))\d{7}|845464\d'=>array( 'premium_rate', ), '70\d{8}'=>array( 'personal_number', ), '56\d{8}'=>array( 'voip', ), ); const FORMATS = array(); } 

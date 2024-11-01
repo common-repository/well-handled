@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataSC extends data { const CODE = 'SC'; const PREFIX = 248; const REGION = 'Africa'; const PATTERNS = array( '8000\d{3}|(?:[249]\d|64)\d{5}', ); const TYPES = array( '4[2-46]\d{5}'=>array( 'fixed', ), '2[5-8]\d{5}'=>array( 'mobile', ), '8000\d{3}'=>array( 'toll_free', ), '971\d{4}|(?:64|95)\d{5}'=>array( 'voip', ), ); const FORMATS = array( '(\d)(\d{3})(\d{3})'=>'$1 $2 $3', ); } 

@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataPG extends data { const CODE = 'PG'; const PREFIX = 675; const REGION = 'Australia'; const PATTERNS = array( '(?:180|[78]\d{3})\d{4}|(?:[2-589]\d|64)\d{5}', ); const TYPES = array( '(?:64[1-9]|7730|85[02-46-9])\d{4}|(?:3[0-2]|4[257]|5[34]|77[0-24]|9[78])\d{5}'=>array( 'fixed', ), '775\d{5}|(?:7[0-689]|81)\d{6}'=>array( 'mobile', ), '180\d{4}'=>array( 'toll_free', ), '2(?:0[0-47]|7[568])\d{4}'=>array( 'voip', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1 $2', '(\d{4})(\d{4})'=>'$1 $2', ); } 

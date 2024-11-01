@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataSD extends data { const CODE = 'SD'; const PREFIX = 249; const REGION = 'Africa'; const PATTERNS = array( '[19]\d{8}', ); const TYPES = array( '1(?:5[3-7]|8[35-7])\d{6}'=>array( 'fixed', ), '(?:1[0-2]|9[0-3569])\d{7}'=>array( 'mobile', ), ); const FORMATS = array( '(\d{2})(\d{3})(\d{4})'=>'$1 $2 $3', ); } 

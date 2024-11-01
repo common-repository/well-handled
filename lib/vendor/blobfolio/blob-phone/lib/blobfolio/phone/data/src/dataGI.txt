@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataGI extends data { const CODE = 'GI'; const PREFIX = 350; const REGION = 'Europe'; const PATTERNS = array( '[256]\d{7}', ); const TYPES = array( '2190[0-2]\d{3}|2(?:00\d|16[24-7]|2(?:2[2457]|50))\d{4}'=>array( 'fixed', ), '(?:5[46-8]\d|6(?:06|29))\d{5}'=>array( 'mobile', ), ); const FORMATS = array( '(\d{3})(\d{5})'=>'$1 $2', ); } 

@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataFJ extends data { const CODE = 'FJ'; const PREFIX = 679; const REGION = 'Australia'; const PATTERNS = array( '45\d{5}|(?:0800\d|[235-9])\d{6}', ); const TYPES = array( '603\d{4}|(?:3[0-5]|6[25-7]|8[58])\d{5}'=>array( 'fixed', ), '(?:[279]\d|45|5[01568]|8[034679])\d{5}'=>array( 'mobile', ), '0800\d{7}'=>array( 'toll_free', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1 $2', '(\d{4})(\d{3})(\d{4})'=>'$1 $2 $3', ); } 

@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataLS extends data { const CODE = 'LS'; const PREFIX = 266; const REGION = 'Africa'; const PATTERNS = array( '(?:[256]\d\d|800)\d{5}', ); const TYPES = array( '2\d{7}'=>array( 'fixed', ), '[56]\d{7}'=>array( 'mobile', ), '800[256]\d{4}'=>array( 'toll_free', ), ); const FORMATS = array( '(\d{4})(\d{4})'=>'$1 $2', ); } 

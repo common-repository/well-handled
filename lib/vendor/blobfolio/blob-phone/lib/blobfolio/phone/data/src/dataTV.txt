@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataTV extends data { const CODE = 'TV'; const PREFIX = 688; const REGION = 'Australia'; const PATTERNS = array( '(?:2|7\d\d|90)\d{4}', ); const TYPES = array( '2[02-9]\d{3}'=>array( 'fixed', ), '(?:7[01]\d|90)\d{4}'=>array( 'mobile', ), ); const FORMATS = array(); } 

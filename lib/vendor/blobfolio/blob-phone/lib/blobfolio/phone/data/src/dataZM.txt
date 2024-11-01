@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataZM extends data { const CODE = 'ZM'; const PREFIX = 260; const REGION = 'Africa'; const PATTERNS = array( '(?:63|80)0\d{6}|(?:21|[79]\d)\d{7}', ); const TYPES = array( '21[1-8]\d{6}'=>array( 'fixed', ), '(?:7[67]|9[5-8])\d{7}'=>array( 'mobile', ), '800\d{6}'=>array( 'toll_free', ), '630\d{6}'=>array( 'voip', ), ); const FORMATS = array( '(\d{3})(\d{3})'=>'$1 $2', '(\d{3})(\d{3})(\d{3})'=>'$1 $2 $3', '(\d{2})(\d{7})'=>'$1 $2', ); } 

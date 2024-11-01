@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataPS extends data { const CODE = 'PS'; const PREFIX = 970; const REGION = 'Asia'; const PATTERNS = array( '[2489]2\d{6}|(?:1\d|5)\d{8}', ); const TYPES = array( '(?:22[2-47-9]|42[45]|82[01458]|92[369])\d{5}'=>array( 'fixed', ), '5[69]\d{7}'=>array( 'mobile', ), '1800\d{6}'=>array( 'toll_free', ), '1700\d{6}'=>array( 'shared_cost', ), ); const FORMATS = array( '(\d)(\d{3})(\d{4})'=>'$1 $2 $3', '(\d{3})(\d{3})(\d{3})'=>'$1 $2 $3', '(\d{4})(\d{3})(\d{3})'=>'$1 $2 $3', ); } 

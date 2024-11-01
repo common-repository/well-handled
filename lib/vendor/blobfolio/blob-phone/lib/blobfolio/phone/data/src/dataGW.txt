@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataGW extends data { const CODE = 'GW'; const PREFIX = 245; const REGION = 'Africa'; const PATTERNS = array( '[49]\d{8}|4\d{6}', ); const TYPES = array( '443\d{6}'=>array( 'fixed', ), '9(?:5\d|6[569]|77)\d{6}'=>array( 'mobile', ), '40\d{5}'=>array( 'voip', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1 $2', '(\d{3})(\d{3})(\d{3})'=>'$1 $2 $3', ); } 

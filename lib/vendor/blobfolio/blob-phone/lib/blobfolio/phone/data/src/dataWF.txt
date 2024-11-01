@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataWF extends data { const CODE = 'WF'; const PREFIX = 681; const REGION = 'Australia'; const PATTERNS = array( '(?:[45]0|68|72|8\d)\d{4}', ); const TYPES = array( '(?:50|68|72)\d{4}'=>array( 'fixed', ), '(?:50|68|72|8[23])\d{4}'=>array( 'mobile', ), '[48]0\d{4}'=>array( 'voicemail', ), ); const FORMATS = array( '(\d{2})(\d{2})(\d{2})'=>'$1 $2 $3', ); } 

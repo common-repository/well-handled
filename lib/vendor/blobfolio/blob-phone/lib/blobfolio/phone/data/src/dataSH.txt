@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataSH extends data { const CODE = 'SH'; const PREFIX = 290; const REGION = 'Africa'; const PATTERNS = array( '(?:[256]\d|8)\d{3}', ); const TYPES = array( '2(?:[0-57-9]\d|6[4-9])\d\d'=>array( 'fixed', ), '[56]\d{4}'=>array( 'mobile', ), '262\d\d'=>array( 'voip', ), ); const FORMATS = array(); } 

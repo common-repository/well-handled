@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataBZ extends data { const CODE = 'BZ'; const PREFIX = 501; const REGION = 'North America'; const PATTERNS = array( '(?:0800\d|[2-8])\d{6}', ); const TYPES = array( '(?:236|732)\d{4}|[2-578][02]\d{5}'=>array( 'fixed', ), '6[0-35-7]\d{5}'=>array( 'mobile', ), '0800\d{7}'=>array( 'toll_free', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1-$2', '(\d)(\d{3})(\d{4})(\d{3})'=>'$1-$2-$3-$4', ); } 

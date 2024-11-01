@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataSY extends data { const CODE = 'SY'; const PREFIX = 963; const REGION = 'Asia'; const PATTERNS = array( '[1-39]\d{8}|[1-5]\d{7}', ); const TYPES = array( '[12]1\d{6,7}|(?:1(?:[2356]|4\d)|2[235]|3(?:[13]\d|4)|4[13]|5[1-3])\d{6}'=>array( 'fixed', ), '9(?:22|[3-589]\d|6[024-9])\d{6}'=>array( 'mobile', ), ); const FORMATS = array( '(\d{2})(\d{3})(\d{3,4})'=>'$1 $2 $3', '(\d{3})(\d{3})(\d{3})'=>'$1 $2 $3', ); } 

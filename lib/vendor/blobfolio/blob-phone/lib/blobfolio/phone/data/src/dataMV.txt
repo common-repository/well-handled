@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataMV extends data { const CODE = 'MV'; const PREFIX = 960; const REGION = 'Asia'; const PATTERNS = array( '(?:800|9[0-57-9]\d)\d{7}|[34679]\d{6}', ); const TYPES = array( '(?:3(?:0[0-3]|3[0-59])|6(?:[57][02468]|6[024-68]|8[024689]))\d{4}'=>array( 'fixed', ), '46[46]\d{4}|(?:7[2-9]|9[13-9])\d{5}'=>array( 'mobile', ), '800\d{7}'=>array( 'toll_free', ), '900\d{7}'=>array( 'premium_rate', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1-$2', '(\d{3})(\d{3})(\d{4})'=>'$1 $2 $3', ); } 

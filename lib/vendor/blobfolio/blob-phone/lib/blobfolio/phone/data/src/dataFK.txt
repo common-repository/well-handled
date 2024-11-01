@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataFK extends data { const CODE = 'FK'; const PREFIX = 500; const REGION = 'South America'; const PATTERNS = array( '[2-7]\d{4}', ); const TYPES = array( '[2-47]\d{4}'=>array( 'fixed', ), '[56]\d{4}'=>array( 'mobile', ), ); const FORMATS = array(); } 

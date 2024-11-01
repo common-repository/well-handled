@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataGA extends data { const CODE = 'GA'; const PREFIX = 241; const REGION = 'Africa'; const PATTERNS = array( '(?:[067]\d|11)\d{6}|[2-7]\d{6}', ); const TYPES = array( '[01]1\d{6}'=>array( 'fixed', ), '(?:0[2-7]|6[256]|7[47])\d{6}|[2-7]\d{6}'=>array( 'mobile', ), ); const FORMATS = array( '(\d)(\d{2})(\d{2})(\d{2})'=>'$1 $2 $3 $4', '(\d{2})(\d{2})(\d{2})(\d{2})'=>'$1 $2 $3 $4', ); } 

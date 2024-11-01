@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataVN extends data { const CODE = 'VN'; const PREFIX = 678; const REGION = 'Asia'; const PATTERNS = array( '(?:[23]\d|[48]8)\d{3}|(?:[57]\d|90)\d{5}', ); const TYPES = array( '(?:38[0-8]|48[4-9])\d\d|(?:2[02-9]|3[4-7]|88)\d{3}'=>array( 'fixed', ), '57[2-5]\d{4}|(?:5[0-689]|7[013-7])\d{5}'=>array( 'mobile', ), '90[1-9]\d{4}'=>array( 'voip', ), ); const FORMATS = array( '(\d{3})(\d{4})'=>'$1 $2', ); } 

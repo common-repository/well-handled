@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataPF extends data { const CODE = 'PF'; const PREFIX = 689; const REGION = 'Australia'; const PATTERNS = array( '[48]\d{7}|4\d{5}', ); const TYPES = array( '4(?:[09][4-689]\d|4)\d{4}'=>array( 'fixed', ), '8[7-9]\d{6}'=>array( 'mobile', ), ); const FORMATS = array( '(\d{2})(\d{2})(\d{2})'=>'$1 $2 $3', '(\d{2})(\d{2})(\d{2})(\d{2})'=>'$1 $2 $3 $4', ); } 

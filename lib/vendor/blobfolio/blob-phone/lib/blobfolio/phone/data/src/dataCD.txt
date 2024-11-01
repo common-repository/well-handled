@@ -1,0 +1,2 @@
+<?php
+ namespace blobfolio\wp\wh\vendor\phone\data; class dataCD extends data { const CODE = 'CD'; const PREFIX = 243; const REGION = 'Africa'; const PATTERNS = array( '[189]\d{8}|[1-68]\d{6}', ); const TYPES = array( '12\d{7}|[1-6]\d{6}'=>array( 'fixed', ), '88\d{5}|(?:8[0-2459]|9[017-9])\d{7}'=>array( 'mobile', ), ); const FORMATS = array( '(\d{2})(\d{2})(\d{3})'=>'$1 $2 $3', '(\d{2})(\d{5})'=>'$1 $2', '(\d{2})(\d{3})(\d{4})'=>'$1 $2 $3', '(\d{3})(\d{3})(\d{3})'=>'$1 $2 $3', ); } 
